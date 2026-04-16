@@ -1,16 +1,90 @@
-# React + Vite
+# Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and enhanced Counter App built using React and Vite.
 
-Currently, two official plugins are available:
+This project allows users to increment, decrement, and reset the counter. It also includes step input support, min/max limits, disabled buttons at limits, and status messages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Increment counter
+- Decrement counter
+- Reset counter
+- Step value input
+- Minimum limit handling
+- Maximum limit handling
+- Disabled buttons at limits
+- Dynamic status message
+- Responsive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo
+
+[Open Live App](https://github.com/anilkumar9493/counter-app)
+
+## Project Preview
+
+You can use this app to:
+- Increase the count
+- Decrease the count
+- Reset everything
+- Control how much the counter changes using step input
+
+## Run Locally
+
+Clone the project:
+
+```bash
+git clone https://github.com/anilkumar9493/counter-app
+```
+
+Go to the project folder:
+
+```bash
+cd counter-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## What I Learned
+
+Through this project, I learned:
+
+- How to use `useState` in React
+- How to handle button click events
+- How to work with controlled inputs
+- How to apply min/max logic
+- How to disable buttons conditionally
+- How to deploy a Vite React app using GitHub Pages
+
+## Future Improvements
+
+- Dark mode
+- Keyboard shortcuts
+- Save count in local storage
+- Counter history
+- Auto counter mode
+
+## Author
+
+Built by Anil

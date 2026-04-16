@@ -18,25 +18,55 @@ body {
 }
 
 .card {
-  background: white;
   width: 100%;
-  max-width: 420px;
+  max-width: 430px;
+  background: #ffffff;
+  border-radius: 20px;
   padding: 30px;
-  border-radius: 18px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
   text-align: center;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
 }
 
 .card h1 {
-  margin-bottom: 20px;
   color: #1e3a8a;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 24px;
 }
 
 .count {
-  font-size: 64px;
+  font-size: 72px;
   font-weight: bold;
-  margin-bottom: 24px;
   color: #111827;
+  margin-bottom: 24px;
+}
+
+.stepBox {
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.stepBox label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.stepBox input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.stepBox input:focus {
+  border-color: #2563eb;
 }
 
 .buttons {
@@ -44,6 +74,7 @@ body {
   gap: 12px;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 24px;
 }
 
 button {
@@ -59,4 +90,26 @@ button {
 
 button:hover {
   background: #1d4ed8;
+}
+
+button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+.resetBtn {
+  background: #ef4444;
+}
+
+.resetBtn:hover {
+  background: #dc2626;
+}
+
+.info {
+  background: #f8fafc;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: left;
+  color: #334155;
+  line-height: 1.8;
 }
